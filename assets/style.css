@@ -82,8 +82,8 @@ a:hover{text-decoration-thickness:2px}
 .facts dd{margin:0}
 
 /* Teaching & service */
-.plain{margin:0;padding:0;list-style:none;columns:2;column-gap:32px}
-.plain li{padding:8px 0;border-top:1px solid var(--rule);break-inside:avoid}
+.plain{margin:0;padding:0;list-style:none;max-width:520px;border-bottom:1px solid var(--rule)}
+.plain li{padding:10px 0;border-top:1px solid var(--rule)}
 .service h3{font:600 18px/1.35 var(--sans);margin:0 0 2px}
 .service .when{color:var(--steel);font-size:15px;margin:0 0 12px}
 .service ul{margin:0;padding-left:20px}
@@ -108,7 +108,7 @@ a:hover{text-decoration-thickness:2px}
   .hero{padding:44px 0 28px}
   .pub{grid-template-columns:1fr;gap:2px}
   .pub-year.repeat{display:none}
-  .plain{columns:1}
+
 }
 
 /* Multi-page additions */
